@@ -1,7 +1,7 @@
 # Day 2 - 26-06-2025
 **4-Week Training on Smart Fusion**
 
-## 📝 Topics Covered:
+##  Topics Covered:
 - Detailed **IoT Architecture**
 - **Sensors** and **Smart Sensors**
 - **Actuators** and **Smart Actuators**
@@ -10,7 +10,7 @@
   - **PIR** (Motion Detection Sensor)
   - **LED** as output actuator
 
-## 🧠 Key Learnings:
+##  Key Learnings:
 - **IoT Architecture** has three main layers:
   - **Perception Layer** – physical sensors and actuators
   - **Network Layer** – transfers data (e.g., Wi-Fi, Zigbee)
@@ -23,13 +23,13 @@
 - **PIR Sensor**: Detects motion by sensing infrared emitted from bodies
 - **LED**: Acts as an actuator to give visual output (e.g., ON/OFF based on condition)
 
-## 💻 Activities Done:
+## Activities Done:
 - Understood how different layers in IoT architecture work together
 - Hands-on explanation of how DHT11 and PIR sensors function
 - Learned how an LED can act as an actuator in IoT projects
 
 
-## 🤔 Doubts / Questions:
+##  Doubts / Questions:
 - How are smart sensors programmed to filter data?
 - What’s the difference between analog and digital sensors in practice?
 
