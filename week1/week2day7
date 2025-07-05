@@ -1,0 +1,64 @@
+# Day 7 - 03-07-2025 (Thursday)
+**Smart Fusion Training – Week 2**
+
+## Topics Covered:
+- Data Visualization in Python
+- Introduction to Matplotlib and Seaborn libraries
+- Plotting graphs using `pyplot`
+- Types of graphs:
+  - Line Plot
+  - Bar Chart
+  - Scatter Plot
+  - Histogram
+  - Pie Chart
+
+## Key Learnings:
+- Matplotlib is used for creating static, interactive, and animated plots.
+- Seaborn is built on top of matplotlib and makes complex plots easier.
+- Different types of plots are used for different purposes:
+  - Line Plot: for trends
+  - Bar Chart: for category comparisons
+  - Scatter Plot: to show relationships
+  - Histogram: to show data distribution
+  - Pie Chart: to show proportions
+- Learned how to customize graphs with:
+  - Titles, labels, colors, legends, and gridlines
+- Understood basic syntax of `pyplot` and styling techniques.
+
+## Activities Done:
+- Practiced creating different types of charts using student data
+- Used the following Python libraries:
+  - `matplotlib.pyplot`
+  - `seaborn`
+- Created:
+  - Line graph for student scores over time
+  - Bar graph for subject-wise marks
+  - Scatter plot for two variable analysis
+  - Histogram for mark frequency
+  - Pie chart for subject-wise percentage share
+- Applied labels, legends, colors, and layout options
+
+## Tasks Given:
+- Use your student data (`student_data.csv`)
+- Create the following visualizations:
+  - Line Plot
+  - Bar Chart
+  - Scatter Plot
+  - Histogram
+  - Pie Chart
+- Add appropriate:
+  - Labels
+  - Titles
+  - Legends
+  - Color customization
+
+## Doubts / Questions:
+- How to plot multiple charts in one figure using `plt.subplot()`?
+- When should we use Seaborn over Matplotlib?
+- Which chart type is best for categorical vs numerical data?
+
+## Reflections:
+Today was one of the most interactive and creative sessions. I learned how to represent raw data using beautiful graphs. It helped me see the hidden patterns in the data, and I now feel more confident in using visualization tools in Python for reports and dashboards.
+
+## Tasks for Tomorrow:
+- Learn about EDA (Exploratory data analysis)
