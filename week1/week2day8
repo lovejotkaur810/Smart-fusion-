@@ -1,0 +1,67 @@
+# Day 8 – 04-07-2025 (Friday)
+**Smart Fusion Training – Week 2**
+
+## Topics Covered:
+- Complete overview of **Exploratory Data Analysis (EDA)**
+- Importance and role of EDA in data science and ML
+- Assignment 2 and Mini Project 2 given
+
+## Key Learnings:
+- **EDA** is the first and most important step in data analysis
+- It involves:
+  - Understanding data types and structure
+  - Detecting missing or incorrect values
+  - Identifying outliers and data ranges
+  - Summarizing statistics (mean, median, std dev, etc.)
+  - Finding relationships using visualizations (scatter, heatmap, etc.)
+- Tools and libraries used for EDA:
+  - **Pandas** for data handling
+  - **Matplotlib** and **Seaborn** for plotting
+- Learned how to:
+  - Use `df.describe()` for statistical summary
+  - Use `df.info()` and `df.isnull().sum()` for data checks
+  - Create pair plots, heatmaps, box plots for analysis
+- EDA helps improve model accuracy by understanding data deeply before training
+
+## Activities Done:
+- Performed EDA on student marks dataset
+- Checked for:
+  - Missing values
+  - Outliers using boxplot
+  - Correlation between subjects using heatmap
+- Visualized distributions using histograms and scatter plots
+- Explored data quality issues and planned for cleaning
+
+## Assignment 2:
+**Perform EDA on any real or synthetic dataset**
+- Include:
+  - Summary statistics
+  - Missing value handling
+  - At least 3 different types of plots (bar, histogram, box, scatter, etc.)
+- Tools: Python (Pandas, Matplotlib, Seaborn)
+- Submit as a Jupyter Notebook (`.ipynb`) or Colab link
+
+## Mini Project 2:
+**Design and implement a real-time data dashboard using Python**
+- Requirements:
+  - At least **two live-updating graphs**
+  - **Display of sensor values** (e.g., temperature, humidity)
+- Tech allowed:
+  - Python + libraries like `matplotlib`, `plotly`, `dash`, `streamlit`
+  - Simulated sensor data or real-time using `random` or IoT (e.g., DHT11 on Wokwi)
+- Deliverables:
+  - Python code
+  - Screenshot or screen recording of working dashboard
+
+## Doubts / Questions:
+- Which library is best for real-time graphs: Matplotlib or Streamlit?
+- How to simulate sensor data updates every few seconds?
+- Can we embed a real-time IoT feed into a Python dashboard?
+
+## Reflections:
+Today I got full clarity on how data is explored before being modeled. The EDA process gave me confidence in handling new datasets. The mini project looks exciting as I will now build a live dashboard — which feels like real industry work.
+
+## Tasks for Tomorrow:
+- Start working on Assignment 2 (EDA notebook)
+- Research Python dashboard tools (Streamlit / Plotly Dash)
+- Begin planning live-graph integration for Mini Project 2
