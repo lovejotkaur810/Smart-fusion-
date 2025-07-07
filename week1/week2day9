@@ -1,0 +1,91 @@
+# Day 9 – 07-07-2025 (Monday)
+**Smart Fusion Training – Week 2**
+
+## Topics Covered:
+- What is Learning in AI/ML
+- Introduction to Machine Learning (ML)
+- Introduction to Deep Learning (DL)
+- Types of Learning in ML
+- Types of ML Algorithms
+- Full explanation of Linear Regression
+
+## Key Learnings:
+
+### 🧠 What is Learning?
+- **Learning** is the process where a system improves its performance on a task with experience.
+- In ML, learning means adjusting the model parameters based on data to make better predictions.
+
+---
+
+### 🤖 What is Machine Learning (ML)?
+- A subset of Artificial Intelligence that enables systems to **learn from data** and make predictions or decisions.
+- No hard-coding needed — models **learn patterns** from past examples.
+
+### 🔍 What is Deep Learning (DL)?
+- A subset of ML that uses **neural networks with many layers** (hence “deep”) to automatically extract complex features.
+- Mostly used in **image recognition**, **speech processing**, **NLP**, etc.
+
+---
+
+### 📚 Types of Learning in ML:
+
+| Learning Type       | Description                                             | Examples                         |
+|---------------------|---------------------------------------------------------|----------------------------------|
+| **Supervised**      | Learn from labeled data                                 | Regression, Classification       |
+| **Unsupervised**    | Learn from unlabeled data                               | Clustering, Dimensionality Reduction |
+| **Semi-Supervised** | Mix of labeled and unlabeled data                       | Used when labeling is costly     |
+| **Reinforcement**   | Learn by reward/punishment from environment             | Game-playing AI, Robotics        |
+
+---
+
+### ⚙️ Types of ML Algorithms:
+
+1. **Regression Algorithms** – Predict continuous values  
+   _Example: Linear Regression, Polynomial Regression_
+
+2. **Classification Algorithms** – Predict categories  
+   _Example: Logistic Regression, Decision Tree, SVM_
+
+3. **Clustering Algorithms** – Group similar items  
+   _Example: K-Means, DBSCAN_
+
+4. **Dimensionality Reduction** – Reduce features  
+   _Example: PCA (Principal Component Analysis)_
+
+---
+
+### 📈 Linear Regression – Explained:
+
+**Purpose:**  
+To model the relationship between one or more independent variables (X) and a dependent variable (Y), where Y is continuous.
+
+**Equation:**  
+\[
+Y = mX + c
+\]
+Where:
+- `m` is the slope (weight/parameter)
+- `c` is the intercept (bias)
+- `X` is the input (independent variable)
+- `Y` is the output (predicted value)
+
+**Steps in Linear Regression:**
+1. Collect training data (X, Y)
+2. Fit a line that minimizes error (using cost function)
+3. Make predictions using the line equation
+
+**Loss Function Used:**
+- **Mean Squared Error (MSE)**:
+\[
+MSE = \frac{1}{n} \sum (Y_{actual} - Y_{predicted})^2
+\]
+
+**Used For:**
+- Predicting marks, salary, temperature, house prices, etc.
+
+**In Python (Scikit-learn):**
+```python
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
