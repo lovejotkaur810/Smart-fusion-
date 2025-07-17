@@ -1,0 +1,22 @@
+📅 Day 15 – 15 July 2025 (Tuesday)
+
+🔷 Topic: Continued Project Work – AgrosolAR
+
+🛠️ Tasks Performed:
+- Finalized circuit design and block diagram for the solar tracking system
+- Researched suitable solar tracking algorithms (e.g., dual LDR-based tracking)
+- Created component list with pricing (Servo SG90, LDRs, ESP32, solar panel)
+- Tested individual components for functionality
+- Started basic coding for solar panel rotation using servo and LDR logic
+- Worked on project folder structure on GitHub for documentation
+
+📘 Concepts Applied:
+- LDR sensor integration with ESP32
+- dc gear motor control based on light intensity
+- Project planning and task delegation
+- Embedding real-time hardware logic in code
+
+🧠 Reflections:
+We made solid progress in bringing the AgrosolAR system to life. Interfacing sensors and motors gave a hands-on feel to the learning. Tomorrow we aim to test our first working prototype.
+
+👨‍🏫 Guided By: Training Instructors
