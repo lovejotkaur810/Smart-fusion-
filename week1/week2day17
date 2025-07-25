@@ -1,0 +1,22 @@
+ Day 17 – 17 July 2025 (Thursday)
+
+ Topic: Project Work Continued – AgrosolAR (Smart Solar System)
+
+ Tasks Performed:
+- Continued implementation of AgrosolAR solar tracking system
+- Replaced SG90 Servo Motor with a **DC Gear Motor** for better rotation and torque
+- Controlled DC Gear Motor directly using relay module and ESP32 logic
+- Adjusted rotation logic based on LDR sensor values to track sunlight
+- Performed successful testing of directional rotation towards brighter light source
+- Improved the mechanical structure to handle gear motor movement
+
+ Concepts Applied:
+- Basics of **DC Gear Motor** working and connections
+- Real-time sensor-based control for solar tracking
+- Relay-based motor switching (forward/reverse)
+- Mechanical balancing of solar panel system
+
+ Reflections:
+The DC gear motor gave us more control and power compared to the servo. Since we didn’t use L298N, we had to rely on basic relay logic which was a bit tricky but effective. The solar panel now rotates more reliably based on sunlight direction.
+
+Guided By: Training Faculty / Project Mentor
